@@ -6,6 +6,7 @@
     margin-bottom: 0;
     padding-bottom: 0px;
     
+    
 }
 .nav{
     display: flex;
@@ -29,9 +30,9 @@
     
 }
 .mint-nft{
-    border: 1px #F73D93 solid;
+    border: 1px #E94560 solid;
     border-radius: 30px;
-    background-color: #F73D93;
+    background-color: #E94560;
     color: whitesmoke;
     font-size: 1.5rem;
 

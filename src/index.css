@@ -5,18 +5,18 @@ body{
   color: whitesmoke;
 }
 div {
-  background-color: #16003B;
+  background-color: #1A1A2E;
   
 }
 h1{
   font-family: 'Sacramento';
   font-size: 3.5em;
-  color: #F73D93;
+  color: #E94560;
   margin: auto;
 }
 h2{
   font-family: 'Monserrat', serif;
-  color: #F73D93;
+  color: #E94560;
   font-size: 1.5rem;
   font-weight: normal;
 }
@@ -29,7 +29,7 @@ h3{
 } 
 
 .middle-container p{
-  font-size: 1.5rem;
+  font-size: .75rem;
 }
 
 .web{
@@ -59,12 +59,17 @@ h3{
   line-height: 2; 
 
 }
-.skill-row h3{
-  color: #F73D93;
+.skills-header{
   font-size: 3rem;
 }
-.skill-row p{
+
+.skill-row h3{
+  color: #E94560;
   font-size: 1.5rem;
+  margin: auto;
+}
+.skill-row p{
+  font-size: 1rem;
 }
 .code-skill-description{
   clear: left;
@@ -73,5 +78,24 @@ h3{
   clear: right;
 }
 .contact-me h3{
-  color: #F73D93;
+  color: #E94560;
+}
+
+.contact-me-website{
+  font-size: 1rem;
+}
+
+.bottom-container{
+  display: inline-flex;
+  text-align: center;
+
+}
+
+.footer-link{
+  padding: 0px 5px ;
+}
+
+.logo-img{
+  max-width: 150px;
+  max-height: 150px;
 }

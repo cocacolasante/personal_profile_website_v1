@@ -1,10 +1,11 @@
 import "./navbar.styles.css"
+import Logo from "../../components/logo/Logo.component";
 
 const Navbar = () => {
    return( 
    <div className="nav-container" >
         <section className="logo-container" >
-            <h2 className="logo" >Logo</h2>
+            <Logo className='logo' />
         </section>
             <nav className="nav" >
                 <ul className="nav-list" >
