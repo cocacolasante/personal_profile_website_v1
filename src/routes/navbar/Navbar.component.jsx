@@ -9,9 +9,9 @@ const Navbar = () => {
         </section>
             <nav className="nav" >
                 <ul className="nav-list" >
-                    <li className="nav-links" >Home</li>
-                    <li className="nav-links">Hire Me</li>
-                    <li className="nav-links "><button className="mint-nft" >Mint a Crypted Coder NFT</button></li>
+                    <li className="nav-links" ><a href="/" >Home</a></li>
+                    <li className="nav-links"><a href="" >Hire Me</a></li>
+                    <li className="nav-links "><a><button className="mint-nft" >Mint a Crypted Coder NFT</button></a></li>
                 </ul>
 
             </nav>

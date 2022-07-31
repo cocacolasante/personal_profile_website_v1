@@ -99,3 +99,21 @@ h3{
   max-width: 150px;
   max-height: 150px;
 }
+
+.social-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-list{
+  display: inline-flex;
+
+}
+
+.social-links{
+  display: inline-block;
+  padding: 6px;
+  align-items: center;
+
+}

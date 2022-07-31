@@ -5,6 +5,7 @@ import ProfileCard from './components/profile picture/ProfileCard.component';
 import Skills from './components/skills/Skills.component';
 import ContactMe from './components/contact-me/ContactMe';
 import Footer from './components/footer/Footer';
+import Projects from './components/projects/Projects.component';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     <ProfileCard />
     
     <div className="middle-container">
-       
+        <hr />
+        <Projects />
         <hr />
         <Skills />
         <hr />
