@@ -1,4 +1,6 @@
 import Social from "../social/Social.component";
+import { Link } from "react-router-dom";
+
 
 
 const ContactMe = () => {
@@ -8,7 +10,7 @@ const ContactMe = () => {
           <h4>Need a Website, Ecommerce store or Web3 Dapp?</h4>
           <p className="contact-me-website" >I can design and build fully functioning websites, Smart Contracts, or Dapps!! Send an email below!</p>
           <Social />
-          <a className="btn" href="mailto:colasante16@email.com">CONTACT ME</a>
+          <Link className="nav-links contact-me-link" to='/hire-me' >Contact Me</Link>
           
         </div>
     )

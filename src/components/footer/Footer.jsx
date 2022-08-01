@@ -1,4 +1,5 @@
 import { Fragment } from "react"
+import { Link } from "react-router-dom";
 
 let date = new Date()
 let year = date.getFullYear()
@@ -10,10 +11,10 @@ const Footer = () => {
         <div className="bottom-container">
         <nav className="nav" >
                 <ul className="nav-list" >
-                  <li className="nav-links" ><a href="/" >Home</a></li>
-                    <li className="nav-links"><a href="" >Hire Me</a></li>
-                    <li className="nav-links "><button className="mint-nft" >Mint a Crypted Coder NFT</button></li>
-                 </ul>
+                    <Link className="nav-links" to='/' >Home</Link>
+                    <Link className="nav-links" to='/hire-me' >Hire Me</Link>
+                    <li className="nav-links "><a><button className="mint-nft" >Mint a Crypted Coder NFT</button></a></li>
+               </ul>
             </nav>
           
       </div>

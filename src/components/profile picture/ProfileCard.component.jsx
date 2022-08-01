@@ -12,8 +12,9 @@ const ProfileCard = () => {
             <h2>Hello and Welcome!</h2>
             <p>My name is Anthony! I am a US based full-stack Blockchain Developer. I offer a variety of development options ranging from large business scale solutions to helping the aspiring entrepeneur.</p>
             <p>I focus primarily on Blockchain Smart Contracts, Dapps, DeFi, Web3.0 and Ecommerce, but message me for a consultation to see if you project is a good fit for my skill set!</p>
+            <br />
             <p>Join The Crypted Coders DAO by purchasing an NFT and participate in a Decentralized community of blockchain enthusiests, building and working on projects together</p>
-            <p>Skill set does not matter, we do not need just blockchain devs, but we need everone from front-end, to back-end dev, to sales, marketing, business management, community outreach, and more</p>
+            <p>Skill set does not matter, we do need more than just blockchain devs,  we need everone from front-end, to back-end dev, to sales, marketing, business management, community outreach, and more</p>
             <br />
             <h4>Ask Me How To Get A Discount on Development Services!</h4>
 

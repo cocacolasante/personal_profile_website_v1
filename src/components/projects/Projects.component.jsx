@@ -1,6 +1,7 @@
 import './projects.styles.css'
 
 import logo from "../../imgs/AC.png"
+import logo2 from '../../imgs/AC blockchain dev logo with color.png'
 
 const Projects = () => {
     return (
@@ -11,7 +12,7 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3>Crytped CrowdFunding DAO V1</h3>
-                    <img className='project-img' src={logo} alt="Crytped CrowdFunding DAO V1" />
+                    <img className='project-img' src={logo2} alt="Crytped CrowdFunding DAO V1" />
                     <p>First version of the Crypted CrowdFunding DAO, which eventuall led into Crypted Coders NFT DAO Project
                     </p>
 
@@ -30,7 +31,7 @@ const Projects = () => {
 
                 <div className="projects__card">
                     <h3>Ecommerce Site</h3>
-                    <img className='project-img' src={logo} alt="Ecommerce Site" />
+                    <img className='project-img' src={logo2} alt="Ecommerce Site" />
                     <p>Ecommerce store built in React with Redux, FireBase back end.
                     </p>
 

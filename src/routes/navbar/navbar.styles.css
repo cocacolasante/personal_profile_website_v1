@@ -23,6 +23,10 @@
 .nav-links{
     display: inline-block;
     padding: 6px;
+    text-decoration: none;
+    color: whitesmoke;
+    padding-bottom: 5px;
+    height: 30px;
 
 }
 .nav-list{
@@ -34,6 +38,7 @@
     border-radius: 10px;
     background-color: #E94560;
     color: whitesmoke;
-    font-size: 1.5rem;
+    font-size: 1rem;
+    text-decoration: none;
 
 }
